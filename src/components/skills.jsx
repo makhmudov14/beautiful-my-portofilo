@@ -1,5 +1,5 @@
 
-import SkillsCard from './SkillsCard';
+import SkillsCard from './skillsCard';
 import { skills } from '../data';
 import SectionTitle from './SectionTitle';
 const Skills = () => {
