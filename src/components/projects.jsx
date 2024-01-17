@@ -1,6 +1,6 @@
-import ProjectsCard from './ProjectsCard';
+import ProjectsCard from './projectsCard';
 import { projects } from '../data';
-import SectionTitle from './SectionTitle';
+import SectionTitle from './sectionTitle';
 const Projects = () => {
   return (
     <section className='py-20 align-element' id='projects'>
