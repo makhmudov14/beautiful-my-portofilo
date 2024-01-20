@@ -1,5 +1,8 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaNodeJs,FaBootstrap, } from 'react-icons/fa';
+import { SiTailwindcss, SiTypescript, SiExpress } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -26,6 +29,48 @@ export const skills = [
     title: 'React',
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Nextjs',
+    icon: <TbBrandNextjs className='h-16 w-16 text-emerald-500' />,
+    text: 'Proficient in leveraging the power of Next.js to build high-performance and scalable web applications. Experienced in both server-side rendering (SSR) and static site generation (SSG), optimizing page loads and improving SEO. Skilled in automatic code splitting for efficient asset delivery and utilizing hot module replacement (HMR) for a seamless development experience. ',
+  },
+  {
+    id: nanoid(),
+    title: 'Typescript',
+    icon: <SiTypescript  className='h-16 w-16 text-emerald-500' />,
+    text: 'Highly proficient in leveraging TypeScript to enhance the development of robust and maintainable web applications. Adept at using TypeScripts static typing features to catch errors during development, resulting in more reliable and scalable code.',
+  },
+  {
+    id: nanoid(),
+    title: 'Tailwindcss',
+    icon: <SiTailwindcss  className='h-16 w-16 text-emerald-500' />,
+    text: 'Highly skilled in utilizing Tailwind CSS to streamline and expedite the styling process in web development. Proficient in creating visually appealing user interfaces by leveraging the utility-first approach of Tailwind CSS. Experienced in harnessing the extensive set of pre-built styles and responsive design utilities provided by Tailwind to create modern and flexible layouts.',
+  },
+  {
+    id: nanoid(),
+    title: 'Bootstrap',
+    icon: <FaBootstrap  className='h-16 w-16 text-emerald-500' />,
+    text: 'Proficient in utilizing Bootstrap to expedite the development of responsive and visually appealing web applications. Adept at leveraging Bootstraps extensive library of pre-built components and styles to create consistent and modern user interfaces.',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <DiMongodb   className='h-16 w-16 text-emerald-500' />,
+    text: 'Highly skilled in utilizing MongoDB for efficient and scalable database management. Proficient in both the development and administration aspects of MongoDB, ensuring optimal performance and reliability for applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'Expressjs',
+    icon: <SiExpress   className='h-16 w-16 text-emerald-500' />,
+    text: 'using Express.js to build robust and scalable web applications. Adept at leveraging Express.js, a minimalist and flexible Node.js web application framework, to streamline server-side development.',
+  },
+  {
+    id: nanoid(),
+    title: 'Nodejs',
+    icon: <FaNodeJs   className='h-16 w-16 text-emerald-500' />,
+    text: 'Highly skilled in leveraging Node.js to build scalable and efficient server-side applications. Proficient in using JavaScript to create fast, non-blocking, and event-driven server environments.',
   },
   
 ];
